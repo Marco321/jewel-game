@@ -70,7 +70,7 @@ $(document).ready(function () {
     if (score === target) {
         wins++;
         $("#wins").text(wins);
-    } else (score > target) {
+    } else if (score > target) {
         losses++;
         $("#losses").text(losses);
     }
